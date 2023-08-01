@@ -1,0 +1,43 @@
+.container{
+    width: 500px;
+
+}
+.fa-solid .fa-pen-to-square{
+    padding: 10px;
+    color: grey;
+}
+.fa-solid:hover{
+    animation: both duration timing-function delay iteration-count direction fill-mode;
+}
+
+.FormModificaH{
+    /* position: fixed; */
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display:flex;
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    background-color: rgb(128, 122, 122);
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    
+    z-index:  999;
+}
+.FMB{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    z-index: 99;
+}
+#FMB1{
+    display:none;
+}
+.effetto{
+    filter:blur(10px);
+    position: relative;
+    z-index: -999;
+}
